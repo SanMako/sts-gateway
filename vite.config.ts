@@ -68,14 +68,7 @@ const plugins = [
         from: "vite",
       },
     },
-    shared: {
-      vue: {
-        version: "3.2.25",
-      },
-      "ant-design-vue": {
-        version: "3.2.9",
-      },
-    },
+    shared: ["vue", "vue-router", "ant-design-vue"],
   }),
   createSvgIconsPlugin({
     // 指定需要缓存的图标文件夹
