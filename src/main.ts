@@ -3,6 +3,8 @@ import App from "./App.vue";
 import { setupRouterGuard } from "/@/router/guard";
 import router from "/@/router";
 import { store } from "/@/store";
+// svg 图标
+import "virtual:svg-icons-register";
 
 const app = createApp(App);
 

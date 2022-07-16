@@ -12,14 +12,14 @@ export const microApps: App[] = [
   {
     appId: "sts-system",
     appName: "sts-system",
-    appEntry: "//localhost:8896",
+    appEntry: "//localhost:36120",
     appContainer: "#sub-app-container",
     activeRule: "/sts-system",
   },
   {
     appId: "sts-file",
     appName: "sts-file",
-    appEntry: "//localhost:8888",
+    appEntry: "//localhost:36110",
     appContainer: "#sub-app-container",
     activeRule: "/sts-file",
   },

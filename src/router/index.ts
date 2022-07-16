@@ -7,6 +7,11 @@ const routes: Array<RouteRecordRaw> = [
     component: () => import("/@/views/Home.vue"),
   },
   {
+    path: "/login",
+    name: "Login",
+    component: () => import("/@/views/login/index.vue"),
+  },
+  {
     name: "StsSystem",
     path: "/sts-system:pathMatch(.*)",
     component: () => import("/@/views/Home.vue"),
